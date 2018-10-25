@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.duduzinho.projeto.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:onClick="servicoMusica"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_room"
+        android:orderInCategory="101"
+        android:title="Banco de Dados"
+        android:onClick="cadastroRoom"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_http"
+        android:orderInCategory="102"
+        android:title="HTTP"
+        android:onClick="conectividade"
+        app:showAsAction="never" />
+
+</menu>

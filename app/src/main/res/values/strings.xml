@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Projeto</string>
+    <string name="action_settings">Service</string>
+    <string name="section_format">Este é o Fragment %1$d</string>
+    <string name="hint_word">Palavra...</string>
+    <string name="button_save">Salvar</string>
+    <string name="empty_not_saved">Não é possível salvar palavra vazia!</string>
+</resources>
